@@ -1,17 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
 *{
+    border: 0;
+    margin: 0;
+    padding: 0;
     background-color: #0B132E;
     font-family: 'Tillana';
+    color: white;
 }
 .encabezado{
-    background-color: white;
+    width: 100%;
+    background-color: #0B132E;
     display: flex;
-
     align-items: center;
+    height: 150px;
+    flex-wrap: wrap;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
 }
 .encabezado_imagen{
-
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 .encabezado_imagen_icono{
+width: 100px;
+height: 100px;
+}
+.encabezado_barra{
+
     
+    display: flex;
+    flex-grow: 4;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+    gap: 10px;
+    list-style: none;
+    justify-content: right;
+}
+.encabezado_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 1;
+
+
+}
+.encabezado_menu_icono2{
+    width: 50px;
+    height: auto;
 }
