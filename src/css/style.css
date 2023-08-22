@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+*{
+    background-color: #0B132E;
+    font-family: 'Tillana';
+}
+.encabezado{
+    background-color: white;
+    display: flex;
+
+    align-items: center;
+}
+.encabezado_imagen{
+
+}
+.encabezado_imagen_icono{
+    
+}
