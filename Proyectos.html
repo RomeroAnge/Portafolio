@@ -9,38 +9,44 @@
 <body>
     <header>
         <nav class="encabezado">
-          <div class="encabezado_imagen"><img class="encabezado_imagen_icono" src="src/img/inicio.jpg" alt=""></div>
+          <div class="encabezado_imagen">
+            <img class="encabezado_imagen_icono" src="src/img/inicio.jpg" alt="">
+            <article class="encabezado_imagen_texto"><li>CRISTHIAN ROMERO</li></article>
+        </div>
           <section class="encabezado_barra">
-            <article><li>CRISTHIAN ROMERO</li></article>
-          <a style="margin-left: 25px;"href="index.html"><li>Inicio</li></a>
-          <a style="margin-left: 35px;"href="Proyectos.html"><li>Proyectos</li></a>
-          <a style="margin-left:45px;"href="herramientas.html"><li>Herramientas</li></a>
-          <a style="margin-left: 55px;margin-right: 40px;"href="contacto.html"><li>Contacto</li></a>
+          <a class="encabezado_barra_texto"href="index.html">Inicio</a>
+          <a  class="encabezado_barra_texto"href="Proyectos.html">Proyectos</a>
+          <a  class="encabezado_barra_texto"href="herramientas.html">Herramientas</a>
+          <a  class="encabezado_barra_texto"href="contacto.html">Contacto</a>
           </section>
           <aside class="encabezado_menu"><img class="encabezado_menu_icono2" src="src/img/inicio2.png"></aside>
         </nav>
     </header>
-    <section>
-        <article>
-            <ol>
-                <H1>DOMOTICA-HOUSE</H1>
-                <img src="src/img/proyectos1.jpeg" alt="">
-                <P>Es una casa automatizada, es decir, trabaja a base de sensores que permiten la identificacion de un factor y actúan, de acuerdo, a sus requerimientos.</P>
-            </ol>
-        </article>
-    </section>
-    <aside>
-        <article>
-            <H1>WALLY-E</H1>
-                <p>Es un robot de rescate armado, a partir, de sensores, un arduino y mucha programación que permitian a Wally-E moverse y equivar obstaculos, apagar incendios y encender sus luces en la oscuridad</p>
-                <img src="src/proyectos2.jpeg" alt="">
-        </article>
-    </aside>
+    <div class="proyectos">
+        <section class="proyectos_izquierda">
+            <article class="proyectos_izquierda_contenido">
+                    <h1>DOMOTICA-HOUSE</h1>
+                    <img class="imagen2" src="src/img/proyectos1.jpeg" alt="">
+                    <P>Es una casa automatizada, es decir, trabaja a base de sensores que permiten la identificacion de un factor y actúan, de acuerdo, a sus requerimientos.</P>
+            </article>
+        </section>
+        <aside class="proyectos_derecha">
+            <article class="proyectos_derecha_contenido">
+                <h1>WALLY-E</h1>
+                    <p>Es un robot de rescate armado, a partir, de sensores, un arduino y mucha programación que permitian a Wally-E moverse y equivar obstaculos, apagar incendios y encender sus luces en la oscuridad</p>
+                    <img class="imagen1" src="src/img/proyectos2.jpeg" alt="">
+            </article>
+        </aside>
+    </div>
+    
     <footer>
-        <h3>------------------------------------------------------------------------</h3>
-        <h3>Sigueme en:</h3>
-        <nav>
-        <h3><a href="">Instagram</a>  <a href="https://www.facebook.com/cristian.romerovega.12?mibextid=ZbWKwL">Facebook</a>   <a href="">Youtube</a>  <a href="">Linkendin</a>   <a href="https://github.com/RomeroAnge">Github</a></h3>
+        <nav class="pie">
+        <h3>Sigueme en:
+        <a href="">Instagram</a> 
+        <a href="https://www.facebook.com/cristian.romerovega.12?mibextid=ZbWKwL">Facebook</a>
+        <a href="">Youtube</a>
+        <a href="">Linkendin</a>
+        <a href="https://github.com/RomeroAnge">Github</a></h3>
         <h4>Diseñado libremente en Figma y Codificado en Visual Studio Code por su servidor</h4>
         </nav>
     </footer>
