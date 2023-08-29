@@ -395,7 +395,31 @@ margin-bottom: 30px;
   animation-delay: 1.5s
 }
 
+@media (max-width:768px) {
+  .encabezado{
+      flex-direction: row-reverse;
+  }
+  .encabezado_imagen{
 
+  }
+  .encabezado_barra{
+    display:none;
+  }
+  .encabezado_menu{
+
+  }
+  .separar{
+    flex-direction: column;
+  }
+  .inicio_texto{
+    width: 100%;
+    height: 100%;
+  }
+  .inicio_texto_detalle{
+    width: 100%;
+    height: 100%;
+  }
+}
 
 
 
